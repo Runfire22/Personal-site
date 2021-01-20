@@ -48,6 +48,16 @@ export default function Home() {
             </p>
           </a>
         </div>
+
+        <a
+            href="https://stadtteilliebe.de/blog/serverless-contact-form"
+            className={styles.card}
+          >
+            <h3>Contact form &rarr;</h3>
+            <p>
+              Instantly deploy your Next.js site to a public URL with Vercel.
+            </p>
+          </a>
       </main>
 
       <footer className={styles.footer}>
