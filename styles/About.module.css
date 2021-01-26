@@ -25,19 +25,3 @@
 .title {
     text-align: center;
 }
-
-.label {
-    font-size: 2rem;
-
-}
-
-.input {
-    width: 100%;
-    font-size: 1.5rem;
-}
-
-.textarea {
-    width: 500px;
-    height: 200px;
-    font-size: 1.5rem;
-}
