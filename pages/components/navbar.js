@@ -1,39 +1,36 @@
-import Link from 'next/Link'
+import Link from 'next/Link';
+import styles from '../../styles/Navbar.module.css';
 
 export default function Navbar() {
     return (
         <header>
-            <nav class="navbar navbar-default">
-                <ul>
-                    <li>
+            <nav className="navbar navbar-default">
+                <ul className={styles.ul}>
+                    <li className={styles.li}>
                         <Link href="/">
-                            <a>Forside</a>
+                            <a className={styles.a}>Forside</a>
                         </Link>
                     </li>
-                </ul>
 
-                <ul>
-                    <li>
+                    <li className={styles.li}>
                         <Link href="/about">
-                            <a>Om mig</a>
+                            <a className={styles.a}>Om mig</a>
                         </Link>
                     </li>
-                </ul>
 
-                <ul>
-                    <li>
+                    <li className={styles.li}>
                         <Link href="/portfolio">
-                            <a>Portfolio</a>
+                            <a className={styles.a}>Portfolio</a>
                         </Link>
                     </li>
-                </ul>
 
-                <ul>
-                    <li>
+                    <li className={styles.li} >
                         <Link href="/contact">
-                            <a>Kontakt mig</a>
+                            <a className={styles.a}>Kontakt mig</a>
                         </Link>
                     </li>
+
+                    <toggler></toggler>
                 </ul>
             </nav>
         </header>
