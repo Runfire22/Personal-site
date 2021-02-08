@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Portfolio.module.css'
 import Navbar from './components/navbar.js'
+import Footer from './components/footer.js'
 
 export default function Portfolio() {
     return(
@@ -68,6 +69,8 @@ export default function Portfolio() {
                 </div>
 
             </main>
+
+            <Footer />
         </div>
     )
 }

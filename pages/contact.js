@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Contact.module.css'
 import Navbar from './components/navbar.js'
+import Footer from './components/footer.js'
 
 export default function Contact() {
     return(
@@ -34,6 +35,8 @@ export default function Contact() {
                     </form>
                 </div>
             </main>
+
+            <Footer />
             </div>
         
     )
