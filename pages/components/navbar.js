@@ -29,7 +29,6 @@ export default function Navbar() {
                     </Link>
                 </li>
 
-                <toggler></toggler>
             </ul>
         </navbar>
     )

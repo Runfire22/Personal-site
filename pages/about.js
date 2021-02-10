@@ -13,11 +13,10 @@ export default function Contact() {
             <Navbar />
 
             <main className={styles.main}>
-                <h1 className={styles.title}>Hello from About</h1>
                 <div>
-                <h1>Om mig</h1>
+                    <h1>Om mig</h1>
                     <p>
-                        Hallp, jeg er Christian Wendelboe-Nielsen, og jeg er uddannet datamatiker med
+                        Hallo, jeg er Christian Wendelboe-Nielsen, og jeg er uddannet datamatiker med
                         erfaring inden for React, Java, Node.js, SQL, NoSQL og Android.
                     </p>
                     <p>
@@ -66,7 +65,6 @@ export default function Contact() {
 
                     <h4>Faglige</h4>
                     <ul>
-
                         <li>
                         Jeg har i mange år enten selv fundet det IT udstyr jeg skulle købe,
                         eller hjulpet andre med det. Dette har skaffet mig en erfaring med at
@@ -76,8 +74,8 @@ export default function Contact() {
                         </li>
 
                         <li>
-                        Og efter IT udstyret er blevet købt, er jeg også den der enten satte
-                        det op, eller også konsulterede jeg om det.
+                        Efter IT udstyret er blevet købt, er jeg også den der enten satte
+                        det op, <br /> eller også konsulterede jeg om det.
                         </li>
 
                         <li>
@@ -90,7 +88,7 @@ export default function Contact() {
 
                         <li>
                         Jeg har erhvervet mig en del Erfaring med MicroSoft Office 365,
-                        særdeles med Power Point, som jeg har lavet præsentationer i, Excel,
+                        særdeles med Power Point, som jeg har lavet præsentationer i, Excel,<br />
                         som jeg bruger til mit regnskab og holde styr på frysers indhold, og
                         Word, som jeg har brugt til at skrive bøger i.
                         </li>

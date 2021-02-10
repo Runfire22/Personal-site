@@ -47,9 +47,7 @@ export default function Home() {
             className={styles.card}
           >
             <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+            <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
           </a>
         </div>
 
@@ -57,9 +55,6 @@ export default function Home() {
           <a
             href="https://www.google.com/search?q=next+js+contact+form&rlz=1C1CHBD_daDK922DK922&oq=nextjs+contact+&aqs=chrome.1.69i57j0i13j0i8i13i30.4017j1j7&sourceid=chrome&ie=UTF-8" target="_blank"
           ><h3>Contact form &rarr;</h3></a>
-            <button>
-              <a href="contact" >Kontakt mig</a>
-            </button>
           </div>
       </main>
 
