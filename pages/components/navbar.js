@@ -1,5 +1,7 @@
 import Link from 'next/Link';
 import styles from '../../styles/Navbar.module.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHome, faUser, faFolderOpen, faEnvelopeOpenText } from "@fortawesome/free-solid-svg-icons";
 
 export default function Navbar() {
     return (
@@ -7,25 +9,33 @@ export default function Navbar() {
             <ul>
                 <li>
                     <Link href="/">
-                        <a>Forside</a>
+                        <a>
+                            <FontAwesomeIcon icon={faHome} className={styles.icons} /> 
+                            Forside</a>
                     </Link>
                 </li>
 
                 <li>
                     <Link href="/about">
-                        <a>Om mig</a>
+                        <a>
+                            <FontAwesomeIcon icon={faUser} className={styles.icons} />
+                            Om mig</a>
                     </Link>
                 </li>
 
                 <li>
                     <Link href="/portfolio">
-                        <a>Portfolio</a>
+                        <a>
+                            <FontAwesomeIcon icon={faFolderOpen} className={styles.icons} />
+                            Portfolio</a>
                     </Link>
                 </li>
 
                 <li>
                     <Link href="/contact">
-                        <a>Kontakt mig</a>
+                        <a>
+                            <FontAwesomeIcon icon={faEnvelopeOpenText} className={styles.icons} />
+                            Kontakt mig</a>
                     </Link>
                 </li>
 

@@ -1,4 +1,6 @@
 import styles from '../../styles/Footer.module.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithubSquare, faLinkedin, faFacebookSquare, faTwitterSquare, faYoutubeSquare } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
     return (
@@ -13,11 +15,35 @@ export default function Footer() {
             </a>
 
             <a
+                href="https://twitter.com/ChrisWenNielsen"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                <FontAwesomeIcon icon={faTwitterSquare} className={styles.icons} />
+            </a>
+
+            <a
+                href="https://www.youtube.com/channel/UCyt4DOARUrr7NP9wWghvEKQ"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                <FontAwesomeIcon icon={faYoutubeSquare} className={styles.icons} />
+            </a>
+
+            <a
                 href="https://www.linkedin.com/in/christian-wendelboe-nielsen/"
                 target="_blank"
                 rel="noopener noreferrer"
                 >
-                <img src="/LI-Logo.png" alt="LinekdIn Logo" className={styles.logo} />
+                <FontAwesomeIcon icon={faLinkedin} className={styles.icons} />
+            </a>
+
+            <a
+                href="https://www.facebook.com/christian.wendelboenielsen.9/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                <FontAwesomeIcon icon={faFacebookSquare} className={styles.icons} />
             </a>
 
             <a
@@ -25,8 +51,10 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 >
-                <img src="/Github_Logo.png" alt="GitHub Mark" className={styles.logo} />
+                <FontAwesomeIcon icon={faGithubSquare} className={styles.icons} />
             </a>
+
+            
         </footer>
     )
 }
