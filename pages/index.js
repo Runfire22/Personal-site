@@ -51,7 +51,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://www.google.com/search?q=next+js+contact+form&rlz=1C1CHBD_daDK922DK922&oq=nextjs+contact+&aqs=chrome.1.69i57j0i13j0i8i13i30.4017j1j7&sourceid=chrome&ie=UTF-8" target="_blank" className={styles.card}
+            href="https://www.netlify.com/blog/2020/05/26/add-a-netlify-powered-contact-form-to-your-next.js-site/" target="_blank" className={styles.card}
             ><h3>Contact form &rarr;</h3></a>
           
           <a
