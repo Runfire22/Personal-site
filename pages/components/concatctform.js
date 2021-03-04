@@ -1,6 +1,6 @@
 export default function ContactForm() {
     return (
-        <form name="contact" method="POST">
+        <form name="contact" method="POST" data-netlify="true">
             <div>
                 <label htmlfor="name">Navn:</label><br/>
                 <input  type="text" name="navn" id="name" placeholder="Dit navn" required />
