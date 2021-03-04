@@ -15,11 +15,6 @@ export default function ContactForm() {
             </div><br/>
             
             <div>
-                <label htmlfor="subject">Emne:</label><br/>
-                <input type="text" name="subject" id="subject" placeholder="Emne" required />
-            </div><br/>
-            
-            <div>
                 <label htmlfor="message">Besked:</label> <br/>
                 <textarea type="text" name="message" id="message" placeholder="Din besked" required />
             </div>
