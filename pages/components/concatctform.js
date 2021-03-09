@@ -1,6 +1,6 @@
 export default function ContactForm() {
     return (
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="contact" method="POST" data-netlify="true" action="/pages/success.js">
             <div>
                 <input type="hidden" name="form-name" value="contact" />
             </div>
