@@ -3,7 +3,7 @@ import styles from '../styles/Success.module.css'
 import Navbar from './components/navbar.js'
 import Footer from './components/footer.js'
 
-export default function Home() {
+export default function Success() {
     return (
         <div className={styles.container}>
             <Head>
