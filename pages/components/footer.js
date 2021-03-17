@@ -14,14 +14,6 @@ export default function Footer() {
             </a>
 
             <a
-                href="https://www.youtube.com/channel/UCyt4DOARUrr7NP9wWghvEKQ"
-                target="_blank"
-                rel="noopener noreferrer"
-                >
-                <FontAwesomeIcon icon={faYoutubeSquare} className={styles.icons} />
-            </a>
-
-            <a
                 href="https://www.linkedin.com/in/christian-wendelboe-nielsen/"
                 target="_blank"
                 rel="noopener noreferrer"
