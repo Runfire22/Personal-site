@@ -15,7 +15,10 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Velkommen til hjemmesiden om Christian Wendelboe-Nielsen
+          Velkommen til hjemmesiden tilhørende
+        </h1><br />
+        <h1 className={styles.title}>
+          Christian Wendelboe-Nielsen
         </h1>
 
         
