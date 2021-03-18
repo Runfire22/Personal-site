@@ -15,10 +15,13 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Velkommen til hjemmesiden tilhørende
-        </h1><br />
+          Under constrcution!
+        </h1>
         <h1 className={styles.title}>
-          Christian Wendelboe-Nielsen
+          Arbejder på sagen!
+        </h1>
+        <h1 className={styles.title}>
+          Skal lige finde ud af hvad der skal være her.
         </h1>
 
         
